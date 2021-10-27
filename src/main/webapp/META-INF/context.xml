@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+    <Resource
+            name="jdbc/Taxi"
+            auth="Container"
+            type="javax.sql.DataSource"
+            maxActive="100"
+            maxIdle="30"
+            maxWait="10000"
+            defaultAutoCommit="false"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            username="root"
+            password="2002197586"
+            url="jdbc:mysql://localhost:3306/taxi_db"
+    />
+</Context>
